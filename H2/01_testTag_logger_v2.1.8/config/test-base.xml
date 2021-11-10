@@ -1,0 +1,8 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="false" ?>
+<TestRecordConfig>
+    <!--LogSegmentation 1)logSegmentType: 0 no constrain, 1 fixed file size, 2 fixed file time.-->
+    <!--LogSegmentation 2)segmentFixedSize: fixed size, in MB or s  -->
+    <LogSegmentation logSegmentType="1" segmentFixedSize="300" />
+    <!--TestBaseInfos: save last record-->
+    <TestBaseInfos projectID="201" SWVersionNo="v0.0.0" vehicleNo="10" tester="test001" diskNo="0" />
+</TestRecordConfig>

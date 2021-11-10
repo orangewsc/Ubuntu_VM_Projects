@@ -1,0 +1,11 @@
+[test info start]
+Project: YSG
+SW Version: v0.0.0
+Vehicle No.: 10
+Tester: test001
+Disk: 0
+[test info end]
+Log Path: /home/guo/Documents/EP21H2_026_v2.3.6.1_202107211900/09_DebugPC/debug/testTag_logger_v2.1.8/log_data
+2021/09/28 15:44:03;2021/09/28 15:44:03;201;008;807; DTC; 201_10_20210928154358.tar.xz
+2021/09/28 15:44:04;2021/09/28 15:44:05;201;008;803; 定位异常; 201_10_20210928154358.tar.xz
+

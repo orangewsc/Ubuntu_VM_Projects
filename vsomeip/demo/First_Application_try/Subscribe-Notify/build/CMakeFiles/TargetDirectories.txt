@@ -1,0 +1,4 @@
+/home/wsc/Projects/vsomeip/demo/First_Application_try/Subscribe-Notify/build/CMakeFiles/rebuild_cache.dir
+/home/wsc/Projects/vsomeip/demo/First_Application_try/Subscribe-Notify/build/CMakeFiles/edit_cache.dir
+/home/wsc/Projects/vsomeip/demo/First_Application_try/Subscribe-Notify/build/CMakeFiles/vSomeIPFirstApplication_Service.dir
+/home/wsc/Projects/vsomeip/demo/First_Application_try/Subscribe-Notify/build/CMakeFiles/vSomeIPFirstApplication_Client.dir

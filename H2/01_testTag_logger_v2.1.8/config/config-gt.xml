@@ -1,0 +1,107 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="false" ?>
+<Config>
+    <UIConfig>
+        <!--columnCount : set column count for test tag show.-->
+        <TestTree columnCount="3" />
+    </UIConfig>
+    <!--Base elements for selection-->
+    <BaseConfig project="GT" projectID="202">
+        <!--isShow: 0 hide, 1 show-->
+        <BaseGroup bid="1" name="address" isShow="1">
+            <Item id="1" name="A点内" isShow="1" />
+            <Item id="2" name="B点内" isShow="1" />
+            <Item id="3" name="A点闸机" isShow="1" />
+            <Item id="4" name="B点闸机" isShow="1" />
+            <Item id="5" name="大桥" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="2" name="direction" isShow="1">
+            <Item id="1" name="偏左" isShow="1" />
+            <Item id="2" name="偏右" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="3" name="takeover" isShow="1">
+            <Item id="1" name="Yes" isShow="1" />
+            <Item id="2" name="No" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="4" name="swc" isShow="1">
+            <Item id="1" name="app_canbus" isShow="1" />
+            <Item id="2" name="app_transformer" isShow="1" />
+            <Item id="3" name="app_tracker" isShow="1" />
+            <Item id="4" name="app_adp" isShow="1" />
+            <Item id="5" name="app_mainloader" isShow="1" />
+            <Item id="6" name="app_TFL_Fusion" isShow="1" />
+            <Item id="7" name="app_FMS" isShow="1" />
+            <Item id="8" name="app_lcm_odometry" isShow="1" />
+            <Item id="9" name="app_cam_anno" isShow="1" />
+            <Item id="10" name="app_ParkingLot" isShow="1" />
+            <Item id="11" name="app_lidarModule" isShow="1" />
+            <Item id="12" name="app_angle_calculate" isShow="1" />
+            <Item id="13" name="app_Back_RS_Lidar" isShow="1" />
+            <Item id="14" name="app_map_NDS" isShow="1" />
+            <Item id="15" name="app_ysg_taskmanager" isShow="1" />
+            <Item id="16" name="app_sw_vision" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="93" name="custom_3" isShow="1">
+            <Item id="1" name="轻微" isShow="0" />
+            <Item id="2" name="测试" isShow="0" />
+        </BaseGroup>
+    </BaseConfig>
+    <!--All test tags for selection-->
+    <TestTagConfig>
+        <!--editType: 0 no eidt, 1 add edit line, 2 add combobox group-YSG, 3 add_edit_line + issue_supply_edit， 4 issue_supply_edit; 11 edit in line, 12 combox in line-swc-->
+        <!--isShow: 0 hide, 1 show-->
+        <TestTagGroup id="1" name="V2X信号异常" isShow="1" editType="0">
+            <Item id="101" name="V2X信号异常-红绿灯异常" isShow="1" />
+            <Item id="102" name="V2X信号异常-闸机异常-A点" isShow="1" />
+            <Item id="103" name="V2X信号异常-闸机异常-B点" isShow="1" />
+            <Item id="104" name="V2X信号异常-闸机异常-海关" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="2" name="行驶偏左偏右" isShow="1" editType="2">
+            <Item id="201" name="偏左压线，roaderror=" isShow="1" />
+            <Item id="202" name="偏右压线，roaderror=" isShow="1" />
+            <Item id="203" name="A点闸机左偏，roaderror=" isShow="1" />
+            <Item id="204" name="A点闸机右偏，roaderror=" isShow="1" />
+            <Item id="205" name="B点闸机左偏，roaderror=" isShow="1" />
+            <Item id="206" name="B点闸机右偏，roaderror=" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="3" name="画龙" isShow="1" editType="0">
+            <Item id="301" name="换道画龙" isShow="1" />
+            <Item id="302" name="画龙" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="4" name="障碍物" isShow="1" editType="0">
+            <Item id="401" name="障碍物跳变，急刹" isShow="1" />
+            <Item id="402" name="误检障碍物，急刹" isShow="1" />
+            <Item id="403" name="误检障碍物，逼停" isShow="1" />
+            <Item id="404" name="障碍物未及时制动" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="5" name="行驶其它问题" isShow="1" editType="4">
+            <Item id="501" name="换道减速" isShow="1" />
+            <Item id="502" name="刹车过晚" isShow="1" />
+            <Item id="503" name="车辆cut in，本车急刹" isShow="1" />
+            <Item id="504" name="出现DTC-8故障" isShow="1" />
+            <Item id="505" name="出现DTC-9故障" isShow="1" />
+            <Item id="506" name="方向盘左右轻微左右高频打" isShow="1" />
+            <Item id="507" name="车辆全局规划路线消失" isShow="1" />
+            <Item id="508" name="车辆右前方占道，检测时间过晚" isShow="1" />
+            <Item id="509" name="静止辆误检交叉碰撞，车辆急刹" isShow="1" />
+            <Item id="510" name="FMS发送路径过晚，车辆完成上一个任务后车辆停止等待" isShow="1" />
+            <Item id="511" name="车辆转弯遇到同向车道内车辆未减速刹车" isShow="1" />
+            <Item id="512" name="红绿灯识别为null，车辆不走" isShow="1" />
+            <Item id="513" name="转向机红屏或转向机助力消失" isShow="1" />
+            <Item id="514" name="障碍物在车辆左前方或右前方，检测识别出来时间过晚" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="6" name="泊车" isShow="1" editType="0">
+            <Item id="601" name="泊入库位偏前" isShow="1" />
+            <Item id="602" name="泊入库位偏后" isShow="1" />
+            <Item id="603" name="泊入库位偏左" isShow="1" />
+            <Item id="604" name="泊入库位偏右" isShow="1" />
+            <Item id="605" name="库位有车依然泊车" isShow="1" />
+            <Item id="606" name="泊入库位车尾出库" isShow="1" />
+            <Item id="607" name="泊入库位右侧出库" isShow="1" />
+            <Item id="608" name="泊入库位左侧出库" isShow="1" />
+            <Item id="609" name="泊车过程中熄火" isShow="1" />
+            <Item id="610" name="泊车完成后不退智驾" isShow="1" />
+            <Item id="611" name="泊车误检急刹" isShow="1" />
+            <Item id="612" name="泊车定位故障" isShow="1" />
+        </TestTagGroup>
+    </TestTagConfig>
+</Config>

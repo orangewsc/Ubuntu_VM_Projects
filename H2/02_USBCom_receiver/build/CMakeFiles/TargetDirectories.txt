@@ -1,0 +1,3 @@
+/home/wsc/Projects/H2/02_USBCom_receiver/build/CMakeFiles/rebuild_cache.dir
+/home/wsc/Projects/H2/02_USBCom_receiver/build/CMakeFiles/USBCom_Receiver.dir
+/home/wsc/Projects/H2/02_USBCom_receiver/build/CMakeFiles/edit_cache.dir

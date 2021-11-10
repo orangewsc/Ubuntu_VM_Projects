@@ -1,0 +1,238 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="false" ?>
+<Config>
+    <UIConfig>
+        <!--columnCount : set column count for test tag show.-->
+        <TestTree columnCount="4" />
+    </UIConfig>
+    <!--Base elements for selection-->
+    <BaseConfig project="EP21H2" projectID="401">
+        <!--isShow: 0 hide, 1 show-->
+        <BaseGroup bid="1" name="address" isShow="1">
+            <Item id="1" name="A点内" isShow="1" />
+            <Item id="2" name="B点内" isShow="1" />
+            <Item id="3" name="A点闸机" isShow="1" />
+            <Item id="4" name="B点闸机" isShow="1" />
+            <Item id="5" name="大桥" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="2" name="direction" isShow="1">
+            <Item id="1" name="偏左" isShow="1" />
+            <Item id="2" name="偏右" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="3" name="takeover" isShow="1">
+            <Item id="1" name="Yes" isShow="1" />
+            <Item id="2" name="No" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="4" name="swc" isShow="1">
+            <Item id="1" name="PathPlanner" isShow="1" />
+            <Item id="2" name="ParkingLot" isShow="0" />
+            <Item id="3" name="ImageProcess" isShow="0" />
+            <Item id="4" name="FreeSpaceFusion" isShow="0" />
+            <Item id="5" name="232" isShow="0" />
+            <Item id="6" name="InertialProcess" isShow="1" />
+            <Item id="7" name="ImageProcess_FreeRunning" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="5" name="parking_1" isShow="1">
+            <Item id="1" name="库位不识别" isShow="1" />
+            <Item id="2" name="库位不更新" isShow="1" />
+            <Item id="3" name="库位分离" isShow="1" />
+            <Item id="4" name="库位漏检" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="6" name="parking_2" isShow="1">
+            <Item id="1" name="调整次数多" isShow="1" />
+            <Item id="2" name="泊不进" isShow="1" />
+            <Item id="3" name="速度异常" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="7" name="pilot_1" isShow="1">
+            <Item id="1" name="画龙" isShow="1" />
+            <Item id="2" name="偏左" isShow="1" />
+            <Item id="3" name="偏右" isShow="1" />
+            <Item id="4" name="压左侧线" isShow="1" />
+            <Item id="5" name="压右侧线" isShow="1" />
+            <Item id="6" name="越左侧线" isShow="1" />
+            <Item id="7" name="越右侧线" isShow="1" />
+            <Item id="8" name="欲撞马路牙" isShow="1" />
+            <Item id="9" name="换道时间过长＞3s" isShow="1" />
+            <Item id="10" name="3s内无法取消换道" isShow="1" />
+            <Item id="11" name="危险情况依旧换道" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="8" name="pilot_2" isShow="1">
+            <Item id="1" name="路口后画龙" isShow="1" />
+            <Item id="2" name="路口后偏右" isShow="1" />
+            <Item id="3" name="路口后偏左" isShow="1" />
+            <Item id="4" name="路口不减速" isShow="1" />
+            <Item id="5" name="欲撞前车" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="9" name="pilot_3" isShow="1">
+            <Item id="1" name="速度波动" isShow="1" />
+            <Item id="2" name="加/减速过慢" isShow="1" />
+            <Item id="3" name="加/减速过快" isShow="1" />
+            <Item id="4" name="顿挫感强" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="10" name="pilot_4" isShow="1">
+            <Item id="1" name="对向车" isShow="1" />
+            <Item id="2" name="同向车" isShow="1" />
+            <Item id="3" name="行人/两轮/三轮车" isShow="1" />
+            <Item id="4" name="静止车" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="91" name="custom_1" isShow="1">
+            <Item id="1" name="问题补充" isShow="0" />
+            <Item id="2" name="库位F44" isShow="0" />
+            <Item id="3" name="加油站附近" isShow="1" />
+            <Item id="4" name="手机打不开" isShow="0" />
+            <Item id="5" name="default" isShow="0" />
+        </BaseGroup>
+        <BaseGroup bid="92" name="custom_2" isShow="1">
+            <Item id="1" name="加油站附近" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="93" name="custom_3" isShow="1">
+            <Item id="1" name="F44" isShow="1" />
+            <Item id="2" name="F45" isShow="1" />
+        </BaseGroup>
+    </BaseConfig>
+    <!--All test tags for selection-->
+    <TestTagConfig>
+        <!--editType: 0 no eidt, 1 add edit line, 2 add combobox group-YSG, 3 add_edit_line + issue_supply_edit; 11 edit in line, 12 combox in line-swc-->
+        <!--isShow: 0 hide, 1 show-->
+        <TestTagGroup id="1" name="PC端" isShow="0" editType="4">
+            <Item id="101" name="iecu ping不通" isShow="0" />
+            <Item id="102" name="CtAp程序挂掉(有coredump)" isShow="0" />
+            <Item id="103" name="CtAp程序未启动" isShow="0" />
+            <Item id="104" name="ADP数据不更新/卡死" isShow="0" />
+            <Item id="105" name="ADP定位异常" isShow="0" />
+            <Item id="106" name="viewer界面异常" isShow="0" />
+            <Item id="107" name="负载异常" isShow="0" editType="12" bid="4" />
+            <Item id="108" name="DTC" isShow="0" editType="11" />
+            <Item id="109" name="智驾模式显示异常" isShow="0" editType="11" />
+            <Item id="110" name="无法切智驾" isShow="0" editType="11" />
+            <Item id="111" name="无法退智驾" isShow="0" editType="11" />
+            <Item id="112" name="ADP界面车道线摆动" isShow="1" />
+            <Item id="113" name="有Coredump" isShow="1" editType="12" bid="4" />
+            <Item id="114" name="CtAp程序未启动" isShow="1" />
+            <Item id="115" name="ADP数据不更新/卡死" isShow="1" />
+            <Item id="116" name="ADP经纬度定位异常" isShow="1" />
+            <Item id="117" name="viewer界面异常" isShow="1" />
+            <Item id="118" name="负载异常" isShow="1" />
+            <Item id="119" name="DTC" isShow="1" editType="11" />
+            <Item id="120" name="智驾模式显示异常" isShow="1" />
+            <Item id="121" name="无法切智驾" isShow="1" />
+            <Item id="122" name="异常不退智驾" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="2" name="AI Pilot" isShow="0" editType="4">
+            <Item id="201" name="车道内画龙" isShow="0" />
+            <Item id="202" name="直道换道异常" isShow="0" />
+            <Item id="203" name="弯道换道异常" isShow="0" />
+            <Item id="204" name="压左侧线" isShow="0" />
+            <Item id="205" name="压右侧线" isShow="0" />
+            <Item id="206" name="顿挫感强" isShow="0" />
+            <Item id="207" name="误检急刹" isShow="0" />
+            <Item id="208" name="过无辅助路口接管" isShow="0" />
+            <Item id="209" name="过弯减速不完全/不减速" isShow="0" />
+            <Item id="210" name="取消换道异常" isShow="0" />
+            <Item id="211" name="踩油门未退智驾" isShow="0" />
+            <Item id="212" name="方向盘转角＞80不退智驾" isShow="0" />
+            <Item id="213" name="车速过慢" isShow="0" />
+            <Item id="214" name="车速过快" isShow="0" />
+            <Item id="215" name="跟车目标检测有误" isShow="0" />
+            <Item id="216" name="障碍物漏检" isShow="0" />
+            <Item id="217" name="巡线-直道" editType="12" isShow="1" bid="7" />
+            <Item id="218" name="巡线-弯道" editType="12" isShow="1" bid="7" />
+            <Item id="219" name="直道-左换道" editType="12" isShow="1" bid="7" />
+            <Item id="220" name="直道-右换道" editType="12" isShow="1" bid="7" />
+            <Item id="221" name="弯道-左换道" editType="12" isShow="1" bid="7" />
+            <Item id="222" name="弯道-右换道" editType="12" isShow="1" bid="7" />
+            <Item id="223" name="首车-过路口" editType="12" isShow="1" bid="8" />
+            <Item id="224" name="跟车-过路口" editType="12" isShow="1" bid="8" />
+            <Item id="225" name="画龙-偏左(cm)" isShow="1" editType="11" />
+            <Item id="226" name="画龙-偏右(cm)" isShow="1" editType="11" />
+            <Item id="227" name="速度异常" editType="12" isShow="1" bid="9" />
+            <Item id="228" name="障碍物-误检" editType="12" isShow="1" bid="10" />
+            <Item id="229" name="障碍物-漏检" editType="12" isShow="1" bid="10" />
+        </TestTagGroup>
+        <TestTagGroup id="3" name="AI Parking" isShow="0" editType="4">
+            <Item id="301" name="切入泊车模式异常" isShow="1" />
+            <Item id="302" name="寻库失败" isShow="0" />
+            <Item id="303" name="泊入库位偏左" isShow="0" />
+            <Item id="304" name="泊入库位偏右" isShow="0" />
+            <Item id="305" name="误检障碍物急刹" isShow="0" />
+            <Item id="306" name="库位有车依然泊车" isShow="1" />
+            <Item id="307" name="欲入撞障碍物/车" isShow="0" />
+            <Item id="308" name="学习停车路线失败" isShow="0" />
+            <Item id="309" name="路线回放失败" isShow="0" />
+            <Item id="310" name="无库位时响应异常" isShow="0" />
+            <Item id="311" name="HMI功能异常" isShow="0" />
+            <Item id="312" name="欲撞障碍物/车" isShow="1" />
+            <Item id="313" name="车身斜向左" isShow="1" />
+            <Item id="314" name="车身斜向右" isShow="1" />
+            <Item id="315" name="寻库失败" editType="12" isShow="1" bid="5" />
+            <Item id="316" name="泊车" editType="12" isShow="1" bid="6" />
+            <Item id="317" name="位置-偏右(cm)" isShow="1" editType="11" />
+            <Item id="318" name="位置-偏左(cm)" isShow="1" editType="11" />
+        </TestTagGroup>
+        <TestTagGroup id="4" name="ADAS" isShow="0" editType="4">
+            <Item id="401" name="无法切入切出ADAS" isShow="1" />
+            <Item id="402" name="ACC纵向速度异常" isShow="1" />
+            <Item id="403" name="ACC横向画龙" isShow="1" />
+            <Item id="404" name="ACC跟车异常" isShow="1" />
+            <Item id="405" name="LKA响应异常" isShow="1" />
+            <Item id="406" name="LDW响应异常" isShow="1" />
+            <Item id="407" name="AEB响应异常" isShow="1" />
+            <Item id="408" name="BSD响应异常" isShow="1" />
+            <Item id="409" name="LCA响应异常" isShow="1" />
+            <Item id="410" name="PDC响应异常" isShow="1" />
+            <Item id="411" name="RCTA响应异常" isShow="1" />
+            <Item id="412" name="DOW响应异常" isShow="1" />
+            <Item id="413" name="IHC响应异常" isShow="1" />
+            <Item id="414" name="SAS响应异常" isShow="1" />
+            <Item id="415" name="AVM响应异常" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="7" name="行驶_泊车" isShow="1" editType="0">
+            <Item id="701" name="直道-巡线异常" isShow="1" />
+            <Item id="702" name="弯道-巡线异常" isShow="1" />
+            <Item id="703" name="直道-换道异常" isShow="1" />
+            <Item id="704" name="弯道-换道异常" isShow="1" />
+            <Item id="705" name="首车-过路口异常" isShow="1" />
+            <Item id="706" name="跟车-过路口异常" isShow="1" />
+            <Item id="707" name="红绿灯过路口异常" isShow="1" />
+            <Item id="708" name="速度异常" isShow="1" />
+            <Item id="709" name="画龙" isShow="1" />
+            <Item id="710" name="寻库异常" isShow="1" />
+            <Item id="711" name="泊入异常" isShow="1" />
+            <Item id="712" name="泊出异常" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="8" name="可识别故障" isShow="1" editType="0">
+            <Item id="801" name="障碍物误检" isShow="1" />
+            <Item id="802" name="障碍物漏检" isShow="1" />
+            <Item id="803" name="定位异常" isShow="1" />
+            <Item id="804" name="车道线异常" isShow="1" />
+            <Item id="805" name="地图线异常" isShow="1" />
+            <Item id="806" name="红绿灯识别异常" isShow="1" />
+            <Item id="807" name="DTC" isShow="1" />
+            <Item id="808" name="程序coredump" isShow="1" />
+            <Item id="809" name="网络通讯异常" isShow="1" />
+            <Item id="810" name="车辆执行器故障" isShow="1" />
+            <Item id="811" name="ADAS故障" isShow="1" />
+            <Item id="812" name="自定义" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="9" name="其它问题" isShow="0" editType="0">
+            <Item id="901" name="传感器无输出" isShow="0" />
+            <Item id="902" name="三级报警异常" isShow="0" />
+            <Item id="903" name="大屏360环视故障" isShow="0" />
+            <Item id="904" name="IECU ping不通" isShow="0" />
+            <Item id="905" name="自定义" isShow="0" />
+        </TestTagGroup>
+        <TestTagGroup id="50" name="自动打点" isShow="0" editType="0">
+            <Item id="1" name="app上报问题类型" isShow="0" />
+            <Item id="2" name="接管" isShow="0" />
+            <Item id="3" name="纵向变化率过大" isShow="0" />
+            <Item id="4" name="纵向功能退出" isShow="0" />
+            <Item id="5" name="横向不稳定" isShow="0" />
+            <Item id="6" name="横向功能退出" isShow="0" />
+            <Item id="7" name="纵向override" isShow="0" />
+            <Item id="8" name="打点备份2" isShow="0" /> 
+            <Item id="9" name="打点备份3" isShow="0" />
+            <Item id="10" name="打点备份4" isShow="0" /> 
+            <Item id="11" name="技术接管" isShow="0" />
+            <Item id="12" name="非技术接管" isShow="0" /> 
+        </TestTagGroup>
+    </TestTagConfig>
+</Config>

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="false" ?>
+<Config>
+    <UIConfig>
+        <!--columnCount : set column count for test tag show.-->
+        <TestTree columnCount="4" />
+    </UIConfig>
+    <!--Base elements for selection-->
+    <BaseConfig project="EP21H" projectID="301">
+        <!--isShow: 0 hide, 1 show-->
+        <BaseGroup bid="1" name="address" isShow="1">
+            <Item id="1" name="A点内" isShow="1" />
+            <Item id="2" name="B点内" isShow="1" />
+            <Item id="3" name="A点闸机" isShow="1" />
+            <Item id="4" name="B点闸机" isShow="1" />
+            <Item id="5" name="大桥" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="2" name="direction" isShow="1">
+            <Item id="1" name="偏左" isShow="1" />
+            <Item id="2" name="偏右" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="3" name="takeover" isShow="1">
+            <Item id="1" name="Yes" isShow="1" />
+            <Item id="2" name="No" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="4" name="swc" isShow="1">
+            <Item id="1" name="PathPlanner" isShow="1" />
+            <Item id="2" name="ParkingLot" isShow="1" />
+            <Item id="3" name="ImageProcess" isShow="1" />
+            <Item id="4" name="FreeSpaceFusion" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="91" name="custom_1" isShow="1">
+            <Item id="1" name="问题补充" isShow="0" />
+            <Item id="2" name="库位F44" isShow="0" />
+            <Item id="3" name="加油站附近" isShow="1" />
+            <Item id="4" name="手机打不开" isShow="0" />
+            <Item id="5" name="ces" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="92" name="custom_2" isShow="1">
+            <Item id="1" name="加油站附近" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="93" name="custom_3" isShow="1">
+            <Item id="1" name="F44" isShow="1" />
+            <Item id="2" name="F45" isShow="1" />
+        </BaseGroup>
+    </BaseConfig>
+    <!--All test tags for selection-->
+    <TestTagConfig>
+        <!--editType: 0 no eidt, 1 add edit line, 2 add combobox group-YSG, 3 add_edit_line + issue_supply_edit， 4 issue_supply_edit; 11 edit in line, 12 combox in line-swc-->
+        <!--isShow: 0 hide, 1 show-->
+        <TestTagGroup id="1" name="PC端" editType="4">
+            <Item id="101" name="ADP界面摆动" isShow="1" />
+            <Item id="102" name="ADP数据不更新/卡死" isShow="1" />
+            <Item id="103" name="ADP定位异常" isShow="1" />
+            <Item id="104" name="viewer界面异常" isShow="1" />
+            <Item id="105" name="负载异常" isShow="1" editType="12" bid="4" />
+            <Item id="106" name="程序挂" isShow="1" editType="12" bid="4" />
+            <Item id="107" name="DTC" isShow="1" editType="11" />
+        </TestTagGroup>
+        <TestTagGroup id="2" name="行驶" editType="4">
+            <Item id="201" name="定位偏" isShow="1" />
+            <Item id="202" name="刹车延时" isShow="1" />
+            <Item id="203" name="画龙" isShow="1" />
+            <Item id="204" name="绕行失败" isShow="1" />
+            <Item id="205" name="障碍物误检" isShow="1" />
+            <Item id="206" name="欲撞障碍物/障碍车" isShow="1" />
+            <Item id="207" name="异常退智驾" isShow="1" />
+            <Item id="208" name="车速异常" isShow="1" />
+            <Item id="209" name="过减速带不减速" isShow="1" />
+            <Item id="210" name="起步乱打方向盘" isShow="1" />
+            <Item id="211" name="起步倒车" isShow="1" />
+            <Item id="212" name="路径规划错误" isShow="1" />
+            <Item id="213" name="出地库过闸机失败" isShow="1" />
+            <Item id="214" name="进地库过闸机失败" isShow="1" />
+            <Item id="215" name="出地库上坡溜坡" isShow="1" />
+            <Item id="216" name="进地库下坡溜坡" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="3" name="泊车" editType="4">
+            <Item id="301" name="泊入库位偏前" isShow="1" />
+            <Item id="302" name="泊入库位偏后" isShow="1" />
+            <Item id="303" name="泊入库位偏左" isShow="1" />
+            <Item id="304" name="泊入库位偏右" isShow="1" />
+            <Item id="305" name="误检障碍物急刹" isShow="1" />
+            <Item id="306" name="库位有车依然泊车" isShow="1" />
+            <Item id="307" name="欲入撞障碍物" isShow="1" />
+            <Item id="308" name="欲入撞障碍车" isShow="1" />
+            <Item id="309" name="欲出撞障碍物" isShow="1" />
+            <Item id="310" name="欲出撞障碍车" isShow="1" />
+            <Item id="311" name="库位漏检" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="4" name="手机" editType="4">
+            <Item id="401" name="手机不退智驾" isShow="1" />
+            <Item id="402" name="手机切智驾车不走" isShow="1" />
+            <Item id="403" name="手机提示无高精度地图覆盖" isShow="1" />
+            <Item id="404" name="手机提示无剩余库位" isShow="1" />
+            <Item id="405" name="手机切不进智驾" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="9" name="其它问题" editType="4">
+            <Item id="901" name="大屏360环视故障" isShow="1" />
+            <Item id="902" name="车不退智驾" isShow="1" />
+            <Item id="903" name="IECU ping不通" isShow="1" />
+        </TestTagGroup>
+    </TestTagConfig>
+</Config>

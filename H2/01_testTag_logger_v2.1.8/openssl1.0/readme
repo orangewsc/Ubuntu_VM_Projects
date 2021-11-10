@@ -1,0 +1,5 @@
+本目录为ssl库文件，以支持qt https使用时的SSL认证
+
+./run_install_ssl.sh 
+(中间会提示输入密码）
+脚本运行后，会将对应系统的lib拷贝到 qt的安装目录下，如/opt/Qt5.5.1/5.5/gcc_64/lib/

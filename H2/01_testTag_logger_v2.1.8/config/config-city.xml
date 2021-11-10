@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="UTF-8" standalone="false" ?>
+<Config>
+    <UIConfig>
+        <!--columnCount : set column count for test tag show.-->
+        <TestTree columnCount="4" />
+    </UIConfig>
+    <!--Base elements for selection-->
+    <BaseConfig project="CITY" projectID="501">
+        <!--isShow: 0 hide, 1 show-->
+        <BaseGroup bid="1" name="address" isShow="1">
+            <Item id="1" name="博园路" isShow="1" />
+            <Item id="2" name="试车场高速" isShow="1" />
+            <Item id="3" name="园区" isShow="1" />
+            <Item id="4" name="同济" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="2" name="direction" isShow="1">
+            <Item id="1" name="偏左" isShow="1" />
+            <Item id="2" name="偏右" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="3" name="takeover" isShow="1">
+            <Item id="1" name="Yes" isShow="1" />
+            <Item id="2" name="No" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="4" name="node" isShow="1">
+            <Item id="1" name="driver_canbus" isShow="1" />
+            <Item id="2" name="driver_can_imu" isShow="1" />
+            <Item id="3" name="driver_udp_centerlidar" isShow="1" />
+            <Item id="4" name="driver_transform" isShow="1" />
+            <Item id="5" name="driver_rs_box" isShow="1" />
+            <Item id="6" name="driver_radar_freespace" isShow="1" />
+            <Item id="7" name="driver_decode_centerlidar" isShow="1" />
+            <Item id="8" name="pred_obs" isShow="1" />
+            <Item id="9" name="sp_freespace" isShow="1" />
+            <Item id="10" name="so_obstacles" isShow="1" />
+            <Item id="11" name="sp_signals" isShow="1" />
+            <Item id="12" name="sp_velocity" isShow="1" />
+            <Item id="13" name="sp_dr" isShow="1" />
+            <Item id="14" name="sp_loc_middle" isShow="1" />
+            <Item id="15" name="sp_loc_bottom" isShow="1" />
+            <Item id="16" name="pred_vehstat_bottom" isShow="1" />
+            <Item id="17" name="pred_vehstat_middle" isShow="1" />
+            <Item id="18" name="sp_loc_map_match_melane" isShow="1" />
+            <Item id="19" name="sp_veh_outlook" isShow="1" />
+            <Item id="20" name="sp_veh_chassis" isShow="1" />
+            <Item id="21" name="sp_loc_feature_melane" isShow="1" />
+            <Item id="22" name="sp_targets" isShow="1" />
+            <Item id="23" name="sp_lanes" isShow="1" />
+            <Item id="24" name="vj_issue" isShow="1" />
+            <Item id="25" name="vj_task" isShow="1" />
+            <Item id="26" name="vj_changepath" isShow="1" />
+            <Item id="27" name="map_koteicore" isShow="1" />
+            <Item id="28" name="map_parse_surmap" isShow="1" />
+            <Item id="29" name="map_parse_targetarrow" isShow="1" />
+            <Item id="30" name="map_parse_remaindistance" isShow="1" />
+            <Item id="31" name="map_routeparking" isShow="1" />
+            <Item id="32" name="plan_mapbuf" isShow="1" />
+            <Item id="33" name="map_topo_targetarrow" isShow="1" />
+            <Item id="34" name="plan_pathdec" isShow="1" />
+            <Item id="35" name="plan_trajgen" isShow="1" />
+            <Item id="36" name="plan_trajvelocity" isShow="1" />
+            <Item id="37" name="plan_motion" isShow="1" />
+            <Item id="38" name="pred_pathchoose" isShow="1" />
+            <Item id="39" name="pred_trajchoose" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="91" name="custom_1" isShow="1">
+            <Item id="1" name="问题补充" isShow="0" />
+            <Item id="2" name="库位F44" isShow="0" />
+            <Item id="3" name="加油站附近" isShow="1" />
+            <Item id="4" name="手机打不开" isShow="0" />
+            <Item id="5" name="default" isShow="0" />
+        </BaseGroup>
+        <BaseGroup bid="92" name="custom_2" isShow="1">
+            <Item id="1" name="加油站附近" isShow="1" />
+        </BaseGroup>
+        <BaseGroup bid="93" name="custom_3" isShow="1">
+            <Item id="1" name="F44" isShow="1" />
+            <Item id="2" name="F45" isShow="1" />
+        </BaseGroup>
+    </BaseConfig>
+    <!--All test tags for selection-->
+    <TestTagConfig>
+        <!--editType: 0 no eidt, 1 add edit line, 2 add combobox group-YSG, 3 add_edit_line + issue_supply_edit， 4 issue_supply_edit; 11 edit in line, 12 combox in line-swc-->
+        <!--isShow: 0 hide, 1 show-->
+        <TestTagGroup id="1" name="PC端" isShow="0" editType="4">
+            <Item id="101" name="viewer界面红绿灯识别错误" isShow="1" />
+            <Item id="102" name="viewer界面没有规划路径" isShow="1" />
+            <Item id="103" name="viewer界面没有地图路径" isShow="1" />
+            <Item id="104" name="mapsensortool的路径计算错误" isShow="1" />
+            <Item id="105" name="负载异常" isShow="1" editType="12" bid="4" />
+            <Item id="106" name="程序挂" isShow="1" editType="12" bid="4" />
+            <Item id="107" name="DTC" isShow="1" editType="11" />
+        </TestTagGroup>
+        <TestTagGroup id="2" name="博园路行驶" isShow="0" editType="4">
+            <Item id="201" name="定位偏" isShow="1" />
+            <Item id="202" name="刹车延时" isShow="1" />
+            <Item id="203" name="画龙" isShow="1" />
+            <Item id="204" name="绕行失败" isShow="1" />
+            <Item id="205" name="障碍物误检" isShow="1" />
+            <Item id="206" name="欲撞障碍物/障碍车" isShow="1" />
+            <Item id="207" name="异常退智驾" isShow="1" />
+            <Item id="208" name="车速异常" isShow="1" />
+            <Item id="209" name="过减速带不减速" isShow="1" />
+            <Item id="210" name="起步乱打方向盘" isShow="1" />
+            <Item id="211" name="起步倒车" isShow="1" />
+            <Item id="212" name="路径规划错误" isShow="1" />
+            <Item id="213" name="预撞马路牙" isShow="1" />
+            <Item id="214" name="压线行驶" isShow="1" />
+            <Item id="215" name="右转预撞马路牙/障碍物" isShow="1" />
+            <Item id="216" name="左转预撞马路牙/障碍物" isShow="1" />
+            <Item id="217" name="急刹" isShow="1" />
+            <Item id="218" name="红绿灯不识别" isShow="1" />
+            <Item id="219" name="红灯行驶" isShow="1" />
+            <Item id="220" name="绿灯停止" isShow="1" />
+            <Item id="221" name="红灯时不右转" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="3" name="试车场高速行驶" isShow="0" editType="4">
+            <Item id="301" name="高速入口外切智驾无法进入高速" isShow="1" />
+            <Item id="302" name="高速入口外切智驾进入高速后压线" isShow="1" />
+            <Item id="303" name="高速入口外切智驾进入对向行驶" isShow="1" />
+            <Item id="304" name="行驶中左右晃动" isShow="1" />
+            <Item id="305" name="行驶中急刹" isShow="1" />
+            <Item id="306" name="弯道前减速较晚减速较急" isShow="1" />
+            <Item id="307" name="弯道速度过低" isShow="1" />
+            <Item id="308" name="预撞右侧障碍物" isShow="1" />
+            <Item id="309" name="预撞左侧障碍物" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="7" name="行驶_泊车" isShow="1" editType="0">
+            <Item id="701" name="直道-巡线异常" isShow="1" />
+            <Item id="702" name="弯道-巡线异常" isShow="1" />
+            <Item id="703" name="直道-换道异常" isShow="1" />
+            <Item id="704" name="弯道-换道异常" isShow="1" />
+            <Item id="705" name="首车-过路口异常" isShow="1" />
+            <Item id="706" name="跟车-过路口异常" isShow="1" />
+            <Item id="707" name="红绿灯过路口异常" isShow="1" />
+            <Item id="708" name="速度异常" isShow="1" />
+            <Item id="709" name="画龙" isShow="1" />
+            <Item id="710" name="寻库异常" isShow="1" />
+            <Item id="711" name="泊入异常" isShow="1" />
+            <Item id="712" name="泊出异常" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="8" name="可识别故障" isShow="1" editType="0">
+            <Item id="801" name="障碍物误检" isShow="1" />
+            <Item id="802" name="障碍物漏检" isShow="1" />
+            <Item id="803" name="定位异常" isShow="1" />
+            <Item id="804" name="车道线异常" isShow="1" />
+            <Item id="805" name="地图线异常" isShow="1" />
+            <Item id="806" name="红绿灯识别异常" isShow="1" />
+            <Item id="807" name="DTC" isShow="1" />
+            <Item id="808" name="程序coredump" isShow="1" />
+            <Item id="809" name="网络通讯异常" isShow="1" />
+            <Item id="810" name="车辆执行器故障" isShow="1" />
+            <Item id="811" name="ADAS故障" isShow="1" />
+            <Item id="812" name="自定义" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="9" name="其它问题" isShow="0" editType="4">
+            <Item id="901" name="切不进智驾" isShow="1" />
+            <Item id="902" name="车不退智驾" isShow="1" />
+            <Item id="903" name="pegasus无响应" isShow="1" />
+            <Item id="904" name="IECU ping不通" isShow="1" />
+            <Item id="905" name="终端疯狂打印消息" isShow="1" />
+        </TestTagGroup>
+        <TestTagGroup id="50" name="自动打点" isShow="0" editType="0">
+            <Item id="1" name="app上报问题类型" isShow="0" /> 
+            <Item id="2" name="接管" isShow="0" />
+        </TestTagGroup>
+    </TestTagConfig>
+</Config>

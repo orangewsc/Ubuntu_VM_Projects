@@ -1,0 +1,64 @@
+﻿<?xml version="1.0" encoding="UTF-8" standalone="false" ?>
+<Config>
+    <Project did="201">
+        <SubProject id="1" name="default">
+            <Item id="101" name="default" file="config.xml" />
+        </SubProject>
+        <SubProject id="2" name="YSG">
+            <Item id="201" name="YSG" file="config-ysg.xml" />
+            <Item id="202" name="GT" file="config-gt.xml" />
+        </SubProject>
+        <SubProject id="3" name="EP21H">
+            <Item id="301" name="EP21H" file="config-ep21h.xml" />
+        </SubProject>
+        <SubProject id="4" name="EP21H2">
+            <Item id="401" name="EP21H2" file="config-ep21h2.xml" />
+        </SubProject>
+        <SubProject id="5" name="CITY">
+            <Item id="501" name="CITY" file="config-city.xml" />
+        </SubProject>
+        <SubProject id="6" name="AIV">
+            <Item id="601" name="AIV" file="config-aiv.xml" />
+        </SubProject>
+    </Project>
+    <!--Set Logger UI 1)... 2) click tag label: 0 disenabled(default), 1 enabled. 3) create new project: 0 disabled(default), 1 enabled. 4) create/add new tag: 0 disabled(default), 1 enabled.5) tagtreeUIStype, column width style: 0 auto check (default), 1 resize-to-content, 2 stretch, 3 drag in header.6) minDiskWarningSize, GB. default: 3 -->
+    <Logger enableClickTagLabel="1" enableCreateNewProject="0" enableAddNewTag="0" tagTreeUIStype="0" minDiskWarningSize="5" />
+    <AutoLog>
+        <!--TestMode. 1) enableAutoStart/enableCheckStop: 0 disabled, 1 enabled. 2) maxStopCheckTime: auto-stop-check time when enableCheckStop=1, unit is minute.-->
+        <TestMode enableAutoStart="1" enableCheckStop="1" maxStopCheckTime="10" />
+        <!--Upload: 0 disabled, 1 enabled.-->
+        <Upload enableAutoUpload="0" enableAutoFlow="0" enableShowAutoFlowCheckbox="0" />
+        <!--TagTime: 1) delayTimeBefore/delayTimeAfter, unit is second.-->
+        <TagTime delayTimeBefore="50" delayTimeAfter="5" />
+        <AutoTag>
+            <EnableAutoTakeover value="1" />
+            <EnableCheckBigDeceleration value="1" />
+            <EnableCheck2_LongiAbort value="1" />
+            <EnableCheck3_LantiUnstable value="1" />
+            <EnableCheck4_LantiAbort value="1" />
+            <EnableCheck5_LongiOverride value="1" />
+            <EnableCheckTask value="0" />
+            <EnableCheckAppLogTag value="0" appDelayTimeBefore="20" />
+            <EnableHMIUpload value="0" />
+            <EnableLocalHMILcm value="0" />
+        </AutoTag>
+    </AutoLog>
+    <!--UserMode 1) enableUserOn: 0 no-user, 1 with-user, will open query dlg.-->
+    <UserMode enableWithUser="1" />
+    <!--AutoLogDelete 1) enableAutoLogDel: 0 disabled, 1 enabled.-->
+    <!-- 2) maxDelCheckTime: max del-check time when enableAutoLogDel=1, unit is hour.-->
+    <AutoLogDelete enableAutoLogDel="1" maxDelCheckTime="72" maxDirRecursionCount="2" />
+    <!--LogSegmentation 1)logSegmentType: 0 no constrain, 1 fixed file size, 2 fixed file time.-->
+    <!--LogSegmentation 2)segmentFixedSize: fixed size, in MB or s  -->
+    <LogSegmentation logSegmentType="1" segmentFixedSize="300" />
+    <!--TestBaseInfos: save last record-->
+    <TestBaseInfos SWVersionNo="v0.0.0" vehicleNo="10" tester="test001" diskNo="0" />
+    <!--Set 1) issueLogCompressed: 0 No, 1 (default) Yes, 2) noIssueLogCompressed: 0 (default) No, 1 Yes,-->
+    <!--3) cpuCount: cpu count for compression, default is 1, set to 0 to use as many threads as there are processor cores-->
+    <CompressSetting issueLogCompressed="1" noIssueLogCompressed="0" cpuCount="1" />
+    <!--Server url: https://atd-idevops.fin-shine.com  http://106.14.92.22:8890   http://capidd.nat300.top -->
+    <!--textOvertime: max wait time for text uploading, unit is minute -->
+    <!--logOvertime: max wait time for a log file uploading, unit is minute -->
+    <Server url="https://atd-idevops.fin-shine.com" maxTextOverTime="1" maxLogOverTime="10" />
+    <Player ttl="0" />
+</Config>

@@ -1,0 +1,65 @@
+
+自动上传，需设置双网卡，双网卡路由器设置方法：
+
+
+
+以下举例中，
+外网：网卡wlo1，网关192.168.43.1，用于上传数据
+内网：网卡enp0s25，网关192.168.8.1，用于接收lcm
+
+1. route -n 检查路由，如果发下为如下情况，则表示有2各默认路由
+
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.43.1    0.0.0.0         UG    600    0        0 wlo1
+0.0.0.0         192.168.8.1     0.0.0.0         UG    600    0        0 enp0s25
+
+则需要删除一个内网的：
+sudo route del default gw 192.168.8.1
+或
+sudo route del default dev enp0s25
+
+2. 添加内网多播路由
+sudo route add -net 224.0.0.0 netmask 240.0.0.0 dev enp0s25
+需确保内网的多播设置打开，ifconfig检查有无MULTICAST标志，
+如无，需打开:  sudo ifconfig enp0s25  MULTICAST 
+
+
+3. 检查内网是否可ping通，如不能，需加静态路由
+sudo route add -net 192.168.8.0/24 gw 192.168.8.1 dev enp0s25
+
+检查外网网页是否可打开，或 ping www.baidu.com
+
+
+
+
+
+此方法，重启后失效， 后续会配置到自启动中。
+
+
+----------------------------------------
+附：
+$ route
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+default         192.168.43.1    0.0.0.0         UG    600    0        0 wlo1
+link-local      *               255.255.0.0     U     1000   0        0 wlo1
+192.168.8.0     192.168.8.1     255.255.255.0   UG    0      0        0 enp0s25
+192.168.8.0     *               255.255.255.0   U     100    0        0 enp0s25
+192.168.43.0    *               255.255.255.0   U     600    0        0 wlo1
+224.0.0.0       *               240.0.0.0       U     0      0        0 enp0s25
+
+route -n
+Kernel IP routing table
+Destination     Gateway         Genmask         Flags Metric Ref    Use Iface
+0.0.0.0         192.168.43.1    0.0.0.0         UG    600    0        0 wlo1
+169.254.0.0     0.0.0.0         255.255.0.0     U     1000   0        0 wlo1
+192.168.8.0     192.168.8.1     255.255.255.0   UG    0      0        0 enp0s25
+192.168.8.0     0.0.0.0         255.255.255.0   U     100    0        0 enp0s25
+192.168.43.0    0.0.0.0         255.255.255.0   U     600    0        0 wlo1
+224.0.0.0       0.0.0.0         240.0.0.0       U     0      0        0 enp0s25
+
+
+
+
+
+

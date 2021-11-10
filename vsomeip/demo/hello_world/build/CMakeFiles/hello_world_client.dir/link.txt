@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11  -rdynamic CMakeFiles/hello_world_client.dir/hello_world_client_main.cpp.o  -o ../bin/hello_world_client -Wl,-rpath,/usr/local/vsomeip-3.1.20/lib /usr/local/vsomeip-3.1.20/lib/libvsomeip3.so.3.1.20 -lpthread 

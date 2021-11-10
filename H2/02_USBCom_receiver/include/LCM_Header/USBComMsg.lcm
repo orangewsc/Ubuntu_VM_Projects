@@ -1,0 +1,170 @@
+struct _ParkingSpaceDspID
+{
+	int64_t    IECUTimeStamp;
+
+        byte    ID;
+}
+
+
+struct _ParkingSpace_LCM
+{
+	int64_t    IECUTimeStamp;
+
+        byte    ParkngSpaceID;
+
+        int16_t    ParkngSpaceLongtRltvDist;
+
+        int16_t    ParkngSpaceLatRltvDist;
+
+        byte    ParkngSpaceAngle;
+
+        byte    ParkngSpaceSts;
+
+        int16_t    ParkngSpaceSyncCtr;
+}
+
+struct _TrafficLight_LCM
+{
+	byte    TrafficLightShap;
+
+        byte    TrafficLightColr;
+
+        byte    TrafficLightTim;
+}
+
+struct _IECUNavigationInfo_LCM
+{
+	int64_t    IECUTimeStamp;
+
+        byte    NavigationTrafficLightInfo;
+
+        _TrafficLight_LCM TrafficLight_Socket[4];
+
+        byte    RoadSpeedLimitSign;
+
+        byte    RoadSpeedLimitSignDist;
+
+        byte    SpeedingWrnng;
+
+        byte    TrafficbanSign;
+
+        byte    TrafficbanSignDist;
+
+        byte    TrafficWrnngSign;
+
+        byte    TrafficWrnngSignDist;
+
+        byte    TrafficSignINF;
+
+        byte    TrafficSignINFDist;
+
+        byte    AIPilotRedLghtSig;
+
+        byte    P2PSpdLimit;
+
+        byte    P2PAverageSpd;
+
+        byte    DistOfP2PSpdLimitEndPoint;
+
+        byte    P2PSpdLimitPromptSts;
+}
+
+
+struct _AIPilotObj_LCM
+{
+	int16_t    AIPilotObjId;
+
+        int16_t    AIPilotObjLongtRltvDist;
+
+        int16_t    AIPilotObjLatRltvDist;
+
+        byte       AIPilotObjStyle;
+
+        byte	   AIPilotObjCrashRisk;
+
+        int16_t    AIPilotObjAngle;
+
+        int16_t    AIPilotObjLongtRltvSpd;
+
+        int16_t    AIPilotObjSyncCtr;	
+}
+
+struct _AIPilotObjDsp_Dsp
+{
+	int64_t    IECUTimeStamp;
+
+        _AIPilotObj_LCM AIPilotObj[16];
+
+        int16_t    FollowCarID;
+
+        byte      FrtLeftObstacleDist;
+
+        byte      FrtRightObstacleDist;
+
+        byte      FrtObstacleDist;
+
+        byte      RearLeftObstacleDist;
+
+        byte      RearRightObstacleDist;
+
+        byte      RearObstacleDist;
+}
+
+
+struct _SpeedControl_FICM2IECU_LCM
+{
+	int64_t    IECUTimeStamp;
+
+        byte    CSCVcCmdDspCmd;
+
+        byte    CSCDecIncCnd;
+
+        byte    CDisCDecIncCnd;
+
+        byte    CDisCVoCnd;
+
+        byte    CSCVoCnd;
+}
+
+struct _SpeedControl_IECU2FICM_LCM
+{
+	int64_t    IECUTimeStamp;
+
+        byte    CSCVcCmdDspCmdR;
+
+        byte    CDisCVoCndCfm;
+}
+
+
+
+
+struct _USBComMsg_LCM
+{
+	_ParkingSpace_LCM ParkingSpace_RTE_Recv[8];
+
+        _ParkingSpace_LCM ParkingSpace_SOCK_Send[8];
+
+        _ParkingSpaceDspID ParkingSpaceDsp_TgtParkngSpaceID_RTE_Recv;
+
+        _ParkingSpaceDspID ParkingSpaceDsp_TgtParkngSpaceID_SOCK_Send;
+
+        _ParkingSpaceDspID ParkingSpaceDsp_TgtParkingChosed_SOCK_Recv;
+
+        _ParkingSpaceDspID ParkingSpaceDsp_TgtParkingChosed_RTE_Send;
+
+        _AIPilotObjDsp_Dsp AIPilotObj_RTE_Recv;
+
+        _AIPilotObjDsp_Dsp AIPilotObj_SOCK_Send;
+
+        _SpeedControl_FICM2IECU_LCM SpeedControl_FICM2IECU_SOCK_Recv;
+
+        _SpeedControl_FICM2IECU_LCM SpeedControl_FICM2IECU_RTE_Send;
+
+        _SpeedControl_IECU2FICM_LCM SpeedControl_IECU2FICM_RTE_Recv;
+
+        _SpeedControl_IECU2FICM_LCM SpeedControl_IECU2FICM_SOCK_Send;
+
+        _IECUNavigationInfo_LCM IECUNavigationInfo_RTE_Recv;
+
+        _IECUNavigationInfo_LCM IECUNavigationInfo_SOCK_Send;
+}
