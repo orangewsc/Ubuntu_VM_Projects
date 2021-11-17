@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -fPIC -g -O2 -O3 -DNDEBUG  -rdynamic CMakeFiles/shm_write.dir/src/procress1.cpp.o CMakeFiles/shm_write.dir/src/include.cpp.o  -o ../bin/shm_write -lpthread -lrt 

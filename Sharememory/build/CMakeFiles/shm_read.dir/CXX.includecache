@@ -1,0 +1,40 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+../include/include.h
+fcntl.h
+-
+sys/stat.h
+-
+semaphore.h
+-
+sys/mman.h
+-
+iostream
+-
+unistd.h
+-
+sys/types.h
+-
+error.h
+-
+memory
+-
+stdio.h
+-
+string
+-
+
+/home/wsc/Projects/Sharememory/src/include.cpp
+include.h
+/home/wsc/Projects/Sharememory/src/include.h
+
+/home/wsc/Projects/Sharememory/src/procress2.cpp
+include.h
+/home/wsc/Projects/Sharememory/src/include.h
+

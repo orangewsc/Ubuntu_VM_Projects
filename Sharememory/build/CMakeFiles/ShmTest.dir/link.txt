@@ -1,0 +1,1 @@
+/usr/bin/c++   -std=c++11 -fPIC -g2 -O3 -DNDEBUG  -rdynamic CMakeFiles/ShmTest.dir/src/include.cpp.o CMakeFiles/ShmTest.dir/src/procress1.cpp.o CMakeFiles/ShmTest.dir/src/procress2.cpp.o  -o ../bin/ShmTest -lpthread 

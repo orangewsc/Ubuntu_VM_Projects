@@ -1,0 +1,4 @@
+/home/wsc/Projects/Sharememory/build/CMakeFiles/edit_cache.dir
+/home/wsc/Projects/Sharememory/build/CMakeFiles/rebuild_cache.dir
+/home/wsc/Projects/Sharememory/build/CMakeFiles/shm_write.dir
+/home/wsc/Projects/Sharememory/build/CMakeFiles/shm_read.dir
