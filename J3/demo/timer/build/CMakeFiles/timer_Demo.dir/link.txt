@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11  -fPIC -g2 -O3 -DNDEBUG CMakeFiles/timer_Demo.dir/src/timer_demo.cpp.o -o ../bin/timer_Demo  -lpthread -lrt 

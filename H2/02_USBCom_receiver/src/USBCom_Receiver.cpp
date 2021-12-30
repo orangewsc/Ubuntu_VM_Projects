@@ -24,7 +24,7 @@ class Handler
         void handleMessage(const lcm::ReceiveBuffer* rbuf, const std::string& chan, const _USBComMsg_LCM* USBComMsgLCM)
         {
             cout<<"==========================================================================================\n\
-                   =========================================================================================="<<endl;
+=========================================================================================="<<endl;
             if(AIPilotObj_LCM_Debug)
             {
                 printf("AIPilotObj_RTE_Recv.IECUTimeStamp:%ld.%ld\n", USBComMsgLCM->AIPilotObj_RTE_Recv.IECUTimeStamp/1000000,

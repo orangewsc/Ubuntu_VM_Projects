@@ -1,1 +1,1 @@
-/usr/bin/c++   -std=c++11 -fPIC -g2 -O3 -DNDEBUG  -rdynamic CMakeFiles/USBCom_Receiver.dir/src/USBCom_Receiver.cpp.o  -o ../bin/USBCom_Receiver /usr/local/lib/liblcm.so.1.4.0 -lpthread 
+/usr/bin/c++  -std=c++11 -fPIC -g2 -O3 -DNDEBUG -rdynamic CMakeFiles/USBCom_Receiver.dir/src/USBCom_Receiver.cpp.o -o ../bin/USBCom_Receiver  -Wl,-rpath,/usr/local/lib /usr/local/lib/liblcm.so.1.3.4 -lpthread 

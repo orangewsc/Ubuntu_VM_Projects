@@ -21,7 +21,7 @@ add_executable(${PROJECT_NAME} ${PROJECT_SOURCES} ${PROJECT_HEADERS})
 
 target_link_libraries(
 			${PROJECT_NAME}
-			/usr/local/lib/liblcm.so.1.4.0     #origin:1.3.4
+			/usr/local/lib/liblcm.so.1.3.4     #origin:1.3.4
 			pthread
 			)
 

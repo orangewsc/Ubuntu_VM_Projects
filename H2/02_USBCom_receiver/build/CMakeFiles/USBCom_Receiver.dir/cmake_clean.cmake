@@ -1,7 +1,8 @@
 file(REMOVE_RECURSE
-  "CMakeFiles/USBCom_Receiver.dir/src/USBCom_Receiver.cpp.o"
-  "../bin/USBCom_Receiver.pdb"
   "../bin/USBCom_Receiver"
+  "../bin/USBCom_Receiver.pdb"
+  "CMakeFiles/USBCom_Receiver.dir/src/USBCom_Receiver.cpp.o"
+  "CMakeFiles/USBCom_Receiver.dir/src/USBCom_Receiver.cpp.o.d"
 )
 
 # Per-language clean rules from dependency scanning.

@@ -1,7 +1,7 @@
 {
-	"USBComLCM_Debug"               : "on",
-	"ParkingSpace_LCM_Debug"        : "on",
-	"AIPilotObj_LCM_Debug"          : "off",
+	"USBComLCM_Debug"               : "off",
+	"ParkingSpace_LCM_Debug"        : "off",
+	"AIPilotObj_LCM_Debug"          : "on",
 	"IECUNavigationInfo_LCM_Debug"  : "off",
 	"SpeedControl_LCM_Debug"        : "off"
 }

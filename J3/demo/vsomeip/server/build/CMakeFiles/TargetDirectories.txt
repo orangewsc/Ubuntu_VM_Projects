@@ -1,0 +1,3 @@
+/home/wsc/Projects/J3/demo/vsomeip/server/build/CMakeFiles/rebuild_cache.dir
+/home/wsc/Projects/J3/demo/vsomeip/server/build/CMakeFiles/J3_SOMEIP_Server_Demo.dir
+/home/wsc/Projects/J3/demo/vsomeip/server/build/CMakeFiles/edit_cache.dir

@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11  -fPIC -g2 -O3 -DNDEBUG CMakeFiles/J3_SOMEIP_Server_Demo.dir/src/J3_SOMEIP_Server_Demo.cpp.o -o ../bin/J3_SOMEIP_Server_Demo  -Wl,-rpath,/usr/local/vsomeip-3.1.20/lib -lpthread /usr/local/vsomeip-3.1.20/lib/libvsomeip3.so.3.1.20 

@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11  -fPIC -g2 -O3 -DNDEBUG CMakeFiles/J3_UDPTest_Client_Demo.dir/src/J3_UDPTest_Client_Demo.cpp.o -o ../bin/J3_UDPTest_Client_Demo  -lpthread 

@@ -22,22 +22,6 @@ void run()
     std::unique_lock<std::mutex> its_lock(mutex);
     condition.wait(its_lock);
 
-    // std::shared_ptr<vsomeip::message> request;
-    // request=vsomeip::runtime::get()->create_request();
-    // request->set_service(SAMPLE_SERVICE_ID);
-    // request->set_instance(SAMPLE_INSTANCE_ID);
-    // request->set_method(SAMPLE_METHOD_ID);
-
-    // std::shared_ptr<vsomeip::payload> its_payload=vsomeip::runtime::get()->create_payload();
-    // std::vector<vsomeip::byte_t> its_payload_data;
-    // for(vsomeip::byte_t i=0;i<10;i++)
-    // {
-    //     its_payload_data.push_back(i%256);
-    // }
-    // its_payload->set_data(its_payload_data);
-    // request->set_payload(its_payload);
-    // app->send(request);
-
     std::set<vsomeip::eventgroup_t> its_groups;
     its_groups.insert(SAMPLE_EVENTGROUP_ID);
     app->request_event(SAMPLE_SERVICE_ID,SAMPLE_INSTANCE_ID,SAMPLE_EVENT_ID,its_groups);
@@ -72,19 +56,6 @@ void on_message(const std::shared_ptr<vsomeip::message> &_response)
     std::cout<<its_message.str()<<std::endl;
 
 
-    // vsomeip::length_t l = its_payload->get_length();
-
-    // //Get payload
-    // std::stringstream ss;
-    // for(vsomeip::length_t i=0;i<l;i++)
-    // {
-    //     ss<<std::setw(2) << std::setfill('0')<<std::hex
-    //     <<(int)*(its_payload->get_data()+i)<<" ";
-    // }
-    // std::cout<<"CLIENT: Received message with Client/Session ["
-    //  <<std::setw(4) << std::setfill('0')<<std::hex<<_response->get_client() << "/"
-    //  <<std::setw(4) << std::setfill('0')<<std::hex<<_response->get_session()<<"]"
-    //  <<ss.str()<<std::endl;
 }
 
 
