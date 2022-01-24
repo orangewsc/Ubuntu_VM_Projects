@@ -1,0 +1,8 @@
+[02/18/20 14:14:55.473][I][4788][4788][KHighAccuracyData_ByNDS_Plugin.cpp][PrintNDSDataInfo] data version:NDS-2.5.1,LANEAUX-1.8,LANDMARK-1.3. compiler version:KMCompilerV3.9. creation datatime:2019-11-04 09:18:34
+[02/18/20 14:14:55.504][I][4788][4788][KMapMatchConfigAgent.cpp][ReadConfigParam] Distance Threshold:20.000000
+[02/18/20 14:14:55.504][I][4788][4788][KMapMatchConfigAgent.cpp][ReadConfigParam] Altitude Threshold:2.000000
+[02/18/20 14:14:55.504][I][4788][4788][KMapMatchConfigAgent.cpp][ReadConfigParam] Angle Threshold:181.000000
+[02/18/20 14:14:55.504][I][4788][4788][KMapMatchConfigAgent.cpp][ReadConfigParam] Log:0
+[02/18/20 14:14:55.504][I][4788][4788][KMapMatchConfigAgent.cpp][ReadConfigParam] Use Altitude:1
+[02/18/20 14:14:55.504][I][4788][4788][KMapMatchConfigAgent.cpp][ReadConfigParam] Dis2RouteThreshold:2.000000
+[02/18/20 14:14:55.504][I][4788][4788][KMapMatchConfigAgent.cpp][ReadConfigParam] MapMatchProbabilityRange:0.300000

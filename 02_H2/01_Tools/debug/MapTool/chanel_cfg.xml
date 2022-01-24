@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<root StructName="RAW_INS" ChanelName="integrated_positioning" RGB="255,0,0" ShowTrailPointCount="500"/>
+<root StructName="RAW_INS" ChanelName="Position_view" RGB="255,0,0" ShowTrailPointCount="5000"/>
+<root StructName="RAW_INS" ChanelName="HighFrequencyPositioning" RGB="255,0,0" ShowTrailPointCount="5000"/>
+<root StructName="RAW_INS" ChanelName="localization_reslut_2_mapsensortool" RGB="0,255,0" ShowTrailPointCount="5000"/>
+<root StructName="RAW_INS" ChanelName="CIRCUMAMBIENT_VISION_by_SE" RGB="0,0,255" ShowTrailPointCount="5000"/>
+<root StructName="RAW_INS" ChanelName="MapsensorTool_Monitor_SINS_4_other_modules" RGB="255,0,0" ShowTrailPointCount="5000"/>
+<!--<root StructName="RAW_INS" ChanelName="MapsensorTool_Monitor_KF_4_other_modules" RGB="220,220,220" ShowTrailPointCount="500"/>-->
+<root StructName="RAW_INS" ChanelName="MapsensorTool_Monitor_KF_In_Bottom" RGB="0,155,205" ShowTrailPointCount="5000"/>

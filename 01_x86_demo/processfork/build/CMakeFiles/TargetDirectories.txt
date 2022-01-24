@@ -1,0 +1,3 @@
+/home/wsc/Projects/processfork/build/CMakeFiles/rebuild_cache.dir
+/home/wsc/Projects/processfork/build/CMakeFiles/processfork.dir
+/home/wsc/Projects/processfork/build/CMakeFiles/edit_cache.dir

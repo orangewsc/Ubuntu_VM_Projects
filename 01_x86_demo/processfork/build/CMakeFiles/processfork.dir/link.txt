@@ -1,0 +1,1 @@
+/usr/bin/c++  -std=c++11 -fPIC -g -O2 -O3 -DNDEBUG -rdynamic CMakeFiles/processfork.dir/src/processfork.cpp.o -o ../bin/processfork  -lpthread -lrt 

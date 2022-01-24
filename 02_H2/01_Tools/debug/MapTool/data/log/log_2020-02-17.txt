@@ -1,0 +1,12 @@
+[02/17/20 11:47:47.297][I][12054][12054][KHighAccuracyData_ByNDS_Plugin.cpp][PrintNDSDataInfo] data version:NDS-2.5.1,LANEAUX-1.4,LANDMARK-1.3. compiler version:KMComplierV3.2. creation datatime:2019-11-03 08:24:12
+[02/17/20 11:47:47.339][I][12054][12054][KMapMatchConfigAgent.cpp][ReadConfigParam] Distance Threshold:20.000000
+[02/17/20 11:47:47.339][I][12054][12054][KMapMatchConfigAgent.cpp][ReadConfigParam] Altitude Threshold:2.000000
+[02/17/20 11:47:47.339][I][12054][12054][KMapMatchConfigAgent.cpp][ReadConfigParam] Angle Threshold:181.000000
+[02/17/20 11:47:47.339][I][12054][12054][KMapMatchConfigAgent.cpp][ReadConfigParam] Log:0
+[02/17/20 11:47:47.339][I][12054][12054][KMapMatchConfigAgent.cpp][ReadConfigParam] Use Altitude:1
+[02/17/20 11:47:47.339][I][12054][12054][KMapMatchConfigAgent.cpp][ReadConfigParam] Dis2RouteThreshold:2.000000
+[02/17/20 11:47:47.339][I][12054][12054][KMapMatchConfigAgent.cpp][ReadConfigParam] MapMatchProbabilityRange:0.300000
+[02/17/20 11:47:48.074][E][12054][12054][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498680460.
+
+[02/17/20 11:47:48.076][E][12054][12054][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498680472.
+

@@ -1,0 +1,24 @@
+[03/06/20 13:38:02.231][I][3047][3047][KHighAccuracyData_ByNDS_Plugin.cpp][PrintNDSDataInfo] data version:NDS-2.5.1,LANEAUX-1.8,LANDMARK-1.3. compiler version:KMCompilerV3.11.2. creation datatime:2020-01-07 14:27:09
+[03/06/20 13:38:02.253][I][3047][3047][KMapMatchConfigAgent.cpp][ReadConfigParam] Distance Threshold:20.000000
+[03/06/20 13:38:02.253][I][3047][3047][KMapMatchConfigAgent.cpp][ReadConfigParam] Altitude Threshold:2.000000
+[03/06/20 13:38:02.253][I][3047][3047][KMapMatchConfigAgent.cpp][ReadConfigParam] Angle Threshold:181.000000
+[03/06/20 13:38:02.253][I][3047][3047][KMapMatchConfigAgent.cpp][ReadConfigParam] Log:0
+[03/06/20 13:38:02.253][I][3047][3047][KMapMatchConfigAgent.cpp][ReadConfigParam] Use Altitude:1
+[03/06/20 13:38:02.253][I][3047][3047][KMapMatchConfigAgent.cpp][ReadConfigParam] Dis2RouteThreshold:2.000000
+[03/06/20 13:38:02.253][I][3047][3047][KMapMatchConfigAgent.cpp][ReadConfigParam] MapMatchProbabilityRange:0.300000
+[03/06/20 13:38:02.854][E][3047][3047][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498680376.
+
+[03/06/20 13:38:02.879][E][3047][3047][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498680457.
+
+[03/06/20 13:38:03.159][E][3047][3047][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498681194.
+
+[03/06/20 13:38:14.445][I][3047][3047][KRoutePlan.cpp][PlanSingleRoute] Enter KRoutePlan::PlanSingleRoute
+[03/06/20 13:38:14.455][I][3047][3047][KHaPlace.cpp][matchHAPlace] KHaPlace::(446682510,115325645),level=0,carAngle=18, RvId=2392467955498681175(557039854,66391) RsId=3 LaneId=3 GridId=1
+[03/06/20 13:38:14.458][I][3047][3047][KHaPlace.cpp][matchHAPlace] KHaPlace::(446684706,115326037),level=0,carAngle=2147483647, RvId=2392467955498680743(557039854,65959) RsId=1 LaneId=2 GridId=1
+[03/06/20 13:38:14.463][E][3047][3047][KHaRoutePlanRealization.cpp][astarSearch] 2020-03-06 13:38:14 PartRoute failed---EC_DISJUNCT S(446682510,115325645) E(446684706,115326037), break off: rvid = 2392467955498680743, rvseq = 1, lanenodeid = 2392467955498680334
+[03/06/20 13:38:14.483][I][3047][3047][KRoutePlanAPI.cpp][SetRoute] call PlanSingleRoute() is 0 !!!
+[03/06/20 13:38:14.483][I][3047][3047][KRoutePlanAPI.cpp][SetRoute] KRoutePlan::PlanSingleRoute AllTime=38, Dis=59
+[03/06/20 13:38:15.674][I][3047][3047][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211703851,312840852,2147483647, GridKey:2392467955498681175,3,3,1
+[03/06/20 13:38:15.674][I][3047][3047][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211709806,312841832,2147483647, GridKey:2392467955498680743,1,2,1
+[03/06/20 13:38:15.674][I][3047][3047][HorizonProvider.cpp][GetWholeRoute] [EVENT][HP] Make new path[8] ok, Now gen and send wholeRoute begin ... 
+[03/06/20 13:38:15.674][I][3047][3047][HorizonProvider.cpp][GetWholeRoute] [EVENT][HP] Gen and send wholeRoute end 

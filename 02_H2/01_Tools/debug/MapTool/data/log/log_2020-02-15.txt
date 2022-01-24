@@ -1,0 +1,23 @@
+[02/15/20 17:11:43.771][I][4254][4254][KHighAccuracyData_ByNDS_Plugin.cpp][PrintNDSDataInfo] data version:NDS-2.5.1,LANEAUX-1.8,LANDMARK-1.3. compiler version:KMCompilerV3.11.2. creation datatime:2020-01-07 14:27:09
+[02/15/20 17:11:43.803][I][4254][4254][KMapMatchConfigAgent.cpp][ReadConfigParam] Distance Threshold:20.000000
+[02/15/20 17:11:43.803][I][4254][4254][KMapMatchConfigAgent.cpp][ReadConfigParam] Altitude Threshold:2.000000
+[02/15/20 17:11:43.803][I][4254][4254][KMapMatchConfigAgent.cpp][ReadConfigParam] Angle Threshold:181.000000
+[02/15/20 17:11:43.803][I][4254][4254][KMapMatchConfigAgent.cpp][ReadConfigParam] Log:0
+[02/15/20 17:11:43.803][I][4254][4254][KMapMatchConfigAgent.cpp][ReadConfigParam] Use Altitude:1
+[02/15/20 17:11:43.803][I][4254][4254][KMapMatchConfigAgent.cpp][ReadConfigParam] Dis2RouteThreshold:2.000000
+[02/15/20 17:11:43.803][I][4254][4254][KMapMatchConfigAgent.cpp][ReadConfigParam] MapMatchProbabilityRange:0.300000
+[02/15/20 17:11:44.297][E][4254][4254][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498680376.
+
+[02/15/20 17:11:44.313][E][4254][4254][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498680457.
+
+[02/15/20 17:11:44.542][E][4254][4254][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498681194.
+
+[02/15/20 17:13:01.936][I][4254][4254][KRoutePlan.cpp][PlanSingleRoute] Enter KRoutePlan::PlanSingleRoute
+[02/15/20 17:13:01.940][I][4254][4254][KHaPlace.cpp][matchHAPlace] KHaPlace::(446683493,115325845),level=0,carAngle=15, RvId=2392467955498681175(557039854,66391) RsId=3 LaneId=3 GridId=2
+[02/15/20 17:13:01.941][I][4254][4254][KHaPlace.cpp][matchHAPlace] KHaPlace::(446686095,115326098),level=0,carAngle=2147483647, RvId=2392467955498680323(557039854,65539) RsId=1 LaneId=2 GridId=1
+[02/15/20 17:13:01.949][I][4254][4254][KRoutePlanAPI.cpp][SetRoute] call PlanSingleRoute() is 0 !!!
+[02/15/20 17:13:01.949][I][4254][4254][KRoutePlanAPI.cpp][SetRoute] KRoutePlan::PlanSingleRoute AllTime=13, Dis=69
+[02/15/20 17:13:03.787][I][4254][4254][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211706521,312841387,2147483647, GridKey:2392467955498681175,3,3,2
+[02/15/20 17:13:03.787][I][4254][4254][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211713579,312842076,2147483647, GridKey:2392467955498680323,1,2,1
+[02/15/20 17:13:03.787][I][4254][4254][HorizonProvider.cpp][GetWholeRoute] [EVENT][HP] Make new path[8] ok, Now gen and send wholeRoute begin ... 
+[02/15/20 17:13:03.789][I][4254][4254][HorizonProvider.cpp][GetWholeRoute] [EVENT][HP] Gen and send wholeRoute end 

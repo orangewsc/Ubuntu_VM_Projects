@@ -1,0 +1,193 @@
+[03/22/20 19:57:59.524][I][7761][7761][KHighAccuracyData_ByNDS_Plugin.cpp][PrintNDSDataInfo] data version:NDS-2.5.1,LANEAUX-1.8,LANDMARK-1.3. compiler version:KMCompilerV3.11.2. creation datatime:2020-01-07 14:27:09
+[03/22/20 19:57:59.543][I][7761][7761][KMapMatchConfigAgent.cpp][ReadConfigParam] Distance Threshold:20.000000
+[03/22/20 19:57:59.543][I][7761][7761][KMapMatchConfigAgent.cpp][ReadConfigParam] Altitude Threshold:2.000000
+[03/22/20 19:57:59.543][I][7761][7761][KMapMatchConfigAgent.cpp][ReadConfigParam] Angle Threshold:181.000000
+[03/22/20 19:57:59.543][I][7761][7761][KMapMatchConfigAgent.cpp][ReadConfigParam] Log:0
+[03/22/20 19:57:59.543][I][7761][7761][KMapMatchConfigAgent.cpp][ReadConfigParam] Use Altitude:1
+[03/22/20 19:57:59.543][I][7761][7761][KMapMatchConfigAgent.cpp][ReadConfigParam] Dis2RouteThreshold:2.000000
+[03/22/20 19:57:59.543][I][7761][7761][KMapMatchConfigAgent.cpp][ReadConfigParam] MapMatchProbabilityRange:0.300000
+[03/22/20 19:58:00.319][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.373][E][7761][7761][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498680376.
+
+[03/22/20 19:58:00.382][E][7761][7761][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498680457.
+
+[03/22/20 19:58:00.512][E][7761][7761][DataCache4Disp.cpp][LoadRoadVectorHAD] road has no roadsection.rvId=2392467955498681194.
+
+[03/22/20 19:58:00.614][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.630][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.641][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.666][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.767][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.810][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.824][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.864][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.878][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.889][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.927][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.967][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:00.981][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.019][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.033][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.061][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.090][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.156][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.185][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.198][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.209][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.307][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.320][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.331][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.342][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.368][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.397][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.410][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.421][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.449][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.463][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.540][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.557][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.612][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.626][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.637][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.647][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.687][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.716][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.730][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.741][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.751][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.762][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.813][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.844][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.858][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.868][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.879][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.972][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.985][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:01.996][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.007][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.018][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.046][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.115][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.130][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.143][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.157][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.174][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.187][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.199][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.211][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.222][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.289][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.311][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.322][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.333][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.345][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319706
+[03/22/20 19:58:02.355][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319705
+[03/22/20 19:58:02.406][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319705
+[03/22/20 19:58:02.421][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319705
+[03/22/20 19:58:02.434][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319705
+[03/22/20 19:58:02.449][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663297,Lat:115319705
+[03/22/20 19:58:02.531][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663298,Lat:115319705
+[03/22/20 19:58:02.547][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663298,Lat:115319705
+[03/22/20 19:58:02.594][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663298,Lat:115319706
+[03/22/20 19:58:02.634][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663298,Lat:115319706
+[03/22/20 19:58:02.650][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.664][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.675][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.686][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.697][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.709][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.720][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.731][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.741][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663299,Lat:115319706
+[03/22/20 19:58:02.850][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663301,Lat:115319706
+[03/22/20 19:58:02.865][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663302,Lat:115319706
+[03/22/20 19:58:02.877][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663302,Lat:115319706
+[03/22/20 19:58:02.906][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663304,Lat:115319706
+[03/22/20 19:58:02.920][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663304,Lat:115319706
+[03/22/20 19:58:02.946][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663305,Lat:115319706
+[03/22/20 19:58:02.999][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663307,Lat:115319707
+[03/22/20 19:58:03.039][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663308,Lat:115319707
+[03/22/20 19:58:03.089][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663309,Lat:115319707
+[03/22/20 19:58:03.181][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663312,Lat:115319708
+[03/22/20 19:58:03.243][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663316,Lat:115319708
+[03/22/20 19:58:03.290][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663319,Lat:115319709
+[03/22/20 19:58:03.306][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663320,Lat:115319709
+[03/22/20 19:58:03.354][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663324,Lat:115319709
+[03/22/20 19:58:03.400][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663326,Lat:115319710
+[03/22/20 19:58:03.473][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663331,Lat:115319710
+[03/22/20 19:58:03.487][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663332,Lat:115319711
+[03/22/20 19:58:03.519][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663333,Lat:115319711
+[03/22/20 19:58:03.564][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663336,Lat:115319711
+[03/22/20 19:58:03.580][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663337,Lat:115319711
+[03/22/20 19:58:03.656][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663341,Lat:115319712
+[03/22/20 19:58:03.674][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663343,Lat:115319712
+[03/22/20 19:58:03.728][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663347,Lat:115319713
+[03/22/20 19:58:03.789][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663350,Lat:115319713
+[03/22/20 19:58:03.846][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663353,Lat:115319714
+[03/22/20 19:58:03.882][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663355,Lat:115319715
+[03/22/20 19:58:03.917][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663357,Lat:115319715
+[03/22/20 19:58:03.931][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663357,Lat:115319715
+[03/22/20 19:58:03.973][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663361,Lat:115319716
+[03/22/20 19:58:04.024][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663364,Lat:115319716
+[03/22/20 19:58:04.071][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663366,Lat:115319717
+[03/22/20 19:58:04.087][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663367,Lat:115319717
+[03/22/20 19:58:04.131][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663371,Lat:115319718
+[03/22/20 19:58:04.146][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663370,Lat:115319718
+[03/22/20 19:58:04.160][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663373,Lat:115319719
+[03/22/20 19:58:04.227][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663376,Lat:115319719
+[03/22/20 19:58:04.243][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663377,Lat:115319720
+[03/22/20 19:58:04.267][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663378,Lat:115319720
+[03/22/20 19:58:04.344][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663384,Lat:115319721
+[03/22/20 19:58:04.360][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663385,Lat:115319722
+[03/22/20 19:58:04.427][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663389,Lat:115319723
+[03/22/20 19:58:04.484][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663392,Lat:115319723
+[03/22/20 19:58:04.499][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663395,Lat:115319724
+[03/22/20 19:58:04.532][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663396,Lat:115319725
+[03/22/20 19:58:04.589][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663400,Lat:115319726
+[03/22/20 19:58:04.604][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663401,Lat:115319726
+[03/22/20 19:58:04.619][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663401,Lat:115319726
+[03/22/20 19:58:04.657][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663405,Lat:115319727
+[03/22/20 19:58:04.693][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663406,Lat:115319728
+[03/22/20 19:58:04.709][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663406,Lat:115319728
+[03/22/20 19:58:04.739][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663410,Lat:115319729
+[03/22/20 19:58:04.754][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663411,Lat:115319729
+[03/22/20 19:58:04.808][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663416,Lat:115319730
+[03/22/20 19:58:04.841][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663419,Lat:115319730
+[03/22/20 19:58:04.887][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663420,Lat:115319731
+[03/22/20 19:58:04.902][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663422,Lat:115319732
+[03/22/20 19:58:04.916][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663423,Lat:115319732
+[03/22/20 19:58:04.949][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663427,Lat:115319733
+[03/22/20 19:58:04.982][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663429,Lat:115319733
+[03/22/20 19:58:04.997][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663430,Lat:115319733
+[03/22/20 19:58:05.010][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663431,Lat:115319734
+[03/22/20 19:58:05.023][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663432,Lat:115319734
+[03/22/20 19:58:05.037][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663433,Lat:115319735
+[03/22/20 19:58:05.050][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663435,Lat:115319735
+[03/22/20 19:58:05.063][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663436,Lat:115319735
+[03/22/20 19:58:05.095][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663437,Lat:115319736
+[03/22/20 19:58:05.131][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663442,Lat:115319737
+[03/22/20 19:58:05.147][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663443,Lat:115319737
+[03/22/20 19:58:05.160][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663444,Lat:115319738
+[03/22/20 19:58:05.203][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663448,Lat:115319739
+[03/22/20 19:58:05.235][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663451,Lat:115319740
+[03/22/20 19:58:05.254][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663453,Lat:115319741
+[03/22/20 19:58:05.285][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663455,Lat:115319741
+[03/22/20 19:58:05.302][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663457,Lat:115319742
+[03/22/20 19:58:05.315][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663457,Lat:115319742
+[03/22/20 19:58:05.325][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663458,Lat:115319742
+[03/22/20 19:58:05.340][W][7761][7783][KMapmatch.cpp][FindMMRoadInfo] Mini Distance is larger than 5m, Lon:446663459,Lat:115319742
+[03/22/20 19:58:05.439][I][7761][7761][KRoutePlan.cpp][PlanSingleRoute] Enter KRoutePlan::PlanSingleRoute
+[03/22/20 19:58:05.444][I][7761][7761][KHaPlace.cpp][matchHAPlace] KHaPlace::(446663467,115319745),level=31,carAngle=18, RvId=2392467955498681173(557039854,66389) RsId=1 LaneId=2 GridId=1
+[03/22/20 19:58:05.484][I][7761][7761][KHaPlace.cpp][matchHAPlace] KHaPlace::(446731841,115248772),level=0,carAngle=2147483647, RvId=2392467951203713044(557039853,65556) RsId=1 LaneId=2 GridId=1
+[03/22/20 19:58:05.520][I][7761][7761][KHaPlace.cpp][matchHAPlace] KHaPlace::(446690859,115260847),level=0,carAngle=2147483647, RvId=2392467946908745740(557039852,65548) RsId=1 LaneId=2 GridId=1
+[03/22/20 19:58:05.524][I][7761][7761][KHaPlace.cpp][matchHAPlace] KHaPlace::(446695119,115282320),level=0,carAngle=2147483647, RvId=2392467955498681364(557039854,66580) RsId=1 LaneId=2 GridId=1
+[03/22/20 19:58:05.525][I][7761][7761][KHaPlace.cpp][matchHAPlace] KHaPlace::(446658196,115319449),level=0,carAngle=2147483647, RvId=2392467955498681354(557039854,66570) RsId=1 LaneId=2 GridId=1
+[03/22/20 19:58:05.831][I][7761][7761][KRoutePlanAPI.cpp][SetRoute] call PlanSingleRoute() is 0 !!!
+[03/22/20 19:58:05.832][I][7761][7761][KRoutePlanAPI.cpp][SetRoute] KRoutePlan::PlanSingleRoute AllTime=393, Dis=10595
+[03/22/20 19:58:06.656][I][7761][7761][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211652162,312825276,2147483647, GridKey:2392467955498681173,1,2,1
+[03/22/20 19:58:06.656][I][7761][7761][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211837673,312632305,2147483647, GridKey:2392467951203713044,1,2,1
+[03/22/20 19:58:06.656][I][7761][7761][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211726510,312665041,2147483647, GridKey:2392467946908745740,1,2,1
+[03/22/20 19:58:06.656][I][7761][7761][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211738064,312723310,2147483647, GridKey:2392467955498681364,1,2,1
+[03/22/20 19:58:06.656][I][7761][7761][HorizonProvider.cpp][CalRPPlaces] [HP] Input RPPlaces:1211637890,312824053,2147483647, GridKey:2392467955498681354,1,2,1
+[03/22/20 19:58:06.687][I][7761][7761][HorizonProvider.cpp][GetWholeRoute] [EVENT][HP] Make new path[8] ok, Now gen and send wholeRoute begin ... 
+[03/22/20 19:58:06.742][I][7761][7761][HorizonProvider.cpp][GetWholeRoute] [EVENT][HP] Gen and send wholeRoute end 
