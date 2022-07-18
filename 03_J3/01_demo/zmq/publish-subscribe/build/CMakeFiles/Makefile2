@@ -63,8 +63,8 @@ CMAKE_BINARY_DIR = /home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build
 # Directory level rules for the build root directory
 
 # The main recursive "all" target.
-all: CMakeFiles/zmq_client.dir/all
-all: CMakeFiles/zmq_server.dir/all
+all: CMakeFiles/zmq_client_ARM.dir/all
+all: CMakeFiles/zmq_server_ARM.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,61 +72,61 @@ preinstall:
 .PHONY : preinstall
 
 # The main recursive "clean" target.
-clean: CMakeFiles/zmq_client.dir/clean
-clean: CMakeFiles/zmq_server.dir/clean
+clean: CMakeFiles/zmq_client_ARM.dir/clean
+clean: CMakeFiles/zmq_server_ARM.dir/clean
 .PHONY : clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/zmq_client.dir
+# Target rules for target CMakeFiles/zmq_client_ARM.dir
 
 # All Build rule for target.
-CMakeFiles/zmq_client.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client.dir/build.make CMakeFiles/zmq_client.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client.dir/build.make CMakeFiles/zmq_client.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build/CMakeFiles --progress-num=1,2 "Built target zmq_client"
-.PHONY : CMakeFiles/zmq_client.dir/all
+CMakeFiles/zmq_client_ARM.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client_ARM.dir/build.make CMakeFiles/zmq_client_ARM.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client_ARM.dir/build.make CMakeFiles/zmq_client_ARM.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build/CMakeFiles --progress-num=1,2 "Built target zmq_client_ARM"
+.PHONY : CMakeFiles/zmq_client_ARM.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/zmq_client.dir/rule: cmake_check_build_system
+CMakeFiles/zmq_client_ARM.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zmq_client.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zmq_client_ARM.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build/CMakeFiles 0
-.PHONY : CMakeFiles/zmq_client.dir/rule
+.PHONY : CMakeFiles/zmq_client_ARM.dir/rule
 
 # Convenience name for target.
-zmq_client: CMakeFiles/zmq_client.dir/rule
-.PHONY : zmq_client
+zmq_client_ARM: CMakeFiles/zmq_client_ARM.dir/rule
+.PHONY : zmq_client_ARM
 
 # clean rule for target.
-CMakeFiles/zmq_client.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client.dir/build.make CMakeFiles/zmq_client.dir/clean
-.PHONY : CMakeFiles/zmq_client.dir/clean
+CMakeFiles/zmq_client_ARM.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client_ARM.dir/build.make CMakeFiles/zmq_client_ARM.dir/clean
+.PHONY : CMakeFiles/zmq_client_ARM.dir/clean
 
 #=============================================================================
-# Target rules for target CMakeFiles/zmq_server.dir
+# Target rules for target CMakeFiles/zmq_server_ARM.dir
 
 # All Build rule for target.
-CMakeFiles/zmq_server.dir/all:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server.dir/build.make CMakeFiles/zmq_server.dir/depend
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server.dir/build.make CMakeFiles/zmq_server.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build/CMakeFiles --progress-num=3,4 "Built target zmq_server"
-.PHONY : CMakeFiles/zmq_server.dir/all
+CMakeFiles/zmq_server_ARM.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server_ARM.dir/build.make CMakeFiles/zmq_server_ARM.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server_ARM.dir/build.make CMakeFiles/zmq_server_ARM.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=/home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build/CMakeFiles --progress-num=3,4 "Built target zmq_server_ARM"
+.PHONY : CMakeFiles/zmq_server_ARM.dir/all
 
 # Build rule for subdir invocation for target.
-CMakeFiles/zmq_server.dir/rule: cmake_check_build_system
+CMakeFiles/zmq_server_ARM.dir/rule: cmake_check_build_system
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build/CMakeFiles 2
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zmq_server.dir/all
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/zmq_server_ARM.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start /home/wsc/Projects/03_J3/01_demo/zmq/publish-subscribe/build/CMakeFiles 0
-.PHONY : CMakeFiles/zmq_server.dir/rule
+.PHONY : CMakeFiles/zmq_server_ARM.dir/rule
 
 # Convenience name for target.
-zmq_server: CMakeFiles/zmq_server.dir/rule
-.PHONY : zmq_server
+zmq_server_ARM: CMakeFiles/zmq_server_ARM.dir/rule
+.PHONY : zmq_server_ARM
 
 # clean rule for target.
-CMakeFiles/zmq_server.dir/clean:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server.dir/build.make CMakeFiles/zmq_server.dir/clean
-.PHONY : CMakeFiles/zmq_server.dir/clean
+CMakeFiles/zmq_server_ARM.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server_ARM.dir/build.make CMakeFiles/zmq_server_ARM.dir/clean
+.PHONY : CMakeFiles/zmq_server_ARM.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

@@ -8,16 +8,39 @@
 #include <ctime>
 #include <assert.h>
 #include <zmq.h>
+
+#include <unistd.h>
+#include <sys/socket.h>
+#include <netinet/in.h>
+#include <netdb.h>
+#include <netinet/tcp.h>
  
 using namespace std;
- 
+
+#define PRIORITY 17
 int main ()
 {
+    system("ethtool -K eth0.2 gso off");
     void *context = zmq_ctx_new ();
     void *publisher = zmq_socket (context, ZMQ_PUB);
-    int rc = zmq_bind (publisher, "tcp://*:5556");
+    int prio=PRIORITY;
+    int rc = 0;
+    int val=0;
+    size_t len_val=sizeof(val);
+
+    rc = zmq_setsockopt(publisher,ZMQ_TOS,&prio,sizeof(prio));
+    //rc = zmq_connect (publisher, "tcp://192.168.3.60:5556");
+    rc = zmq_bind (publisher, "tcp://*:5556");
     assert (rc == 0);
- 
+
+    if(setsockopt(12,SOL_IP,IP_TOS,&prio,sizeof(prio))<0)
+	{
+		perror("setsockopt(IP_TOS) failed:");
+	}
+    
+    zmq_getsockopt(publisher,ZMQ_TOS,&val,&len_val);
+    
+    cout<<"TOS:"<<val<<endl;
     //  Initialize random number generator
     srand(time(0));
     while (1) {

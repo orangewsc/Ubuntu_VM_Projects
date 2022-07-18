@@ -117,37 +117,37 @@ depend:
 .PHONY : depend
 
 #=============================================================================
-# Target rules for targets named zmq_client
+# Target rules for targets named zmq_client_ARM
 
 # Build rule for target.
-zmq_client: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zmq_client
-.PHONY : zmq_client
+zmq_client_ARM: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zmq_client_ARM
+.PHONY : zmq_client_ARM
 
 # fast build rule for target.
-zmq_client/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client.dir/build.make CMakeFiles/zmq_client.dir/build
-.PHONY : zmq_client/fast
+zmq_client_ARM/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client_ARM.dir/build.make CMakeFiles/zmq_client_ARM.dir/build
+.PHONY : zmq_client_ARM/fast
 
 #=============================================================================
-# Target rules for targets named zmq_server
+# Target rules for targets named zmq_server_ARM
 
 # Build rule for target.
-zmq_server: cmake_check_build_system
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zmq_server
-.PHONY : zmq_server
+zmq_server_ARM: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 zmq_server_ARM
+.PHONY : zmq_server_ARM
 
 # fast build rule for target.
-zmq_server/fast:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server.dir/build.make CMakeFiles/zmq_server.dir/build
-.PHONY : zmq_server/fast
+zmq_server_ARM/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server_ARM.dir/build.make CMakeFiles/zmq_server_ARM.dir/build
+.PHONY : zmq_server_ARM/fast
 
 src/zmq_client.o: src/zmq_client.cpp.o
 .PHONY : src/zmq_client.o
 
 # target to build an object file
 src/zmq_client.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client.dir/build.make CMakeFiles/zmq_client.dir/src/zmq_client.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client_ARM.dir/build.make CMakeFiles/zmq_client_ARM.dir/src/zmq_client.cpp.o
 .PHONY : src/zmq_client.cpp.o
 
 src/zmq_client.i: src/zmq_client.cpp.i
@@ -155,7 +155,7 @@ src/zmq_client.i: src/zmq_client.cpp.i
 
 # target to preprocess a source file
 src/zmq_client.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client.dir/build.make CMakeFiles/zmq_client.dir/src/zmq_client.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client_ARM.dir/build.make CMakeFiles/zmq_client_ARM.dir/src/zmq_client.cpp.i
 .PHONY : src/zmq_client.cpp.i
 
 src/zmq_client.s: src/zmq_client.cpp.s
@@ -163,7 +163,7 @@ src/zmq_client.s: src/zmq_client.cpp.s
 
 # target to generate assembly for a file
 src/zmq_client.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client.dir/build.make CMakeFiles/zmq_client.dir/src/zmq_client.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_client_ARM.dir/build.make CMakeFiles/zmq_client_ARM.dir/src/zmq_client.cpp.s
 .PHONY : src/zmq_client.cpp.s
 
 src/zmq_server.o: src/zmq_server.cpp.o
@@ -171,7 +171,7 @@ src/zmq_server.o: src/zmq_server.cpp.o
 
 # target to build an object file
 src/zmq_server.cpp.o:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server.dir/build.make CMakeFiles/zmq_server.dir/src/zmq_server.cpp.o
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server_ARM.dir/build.make CMakeFiles/zmq_server_ARM.dir/src/zmq_server.cpp.o
 .PHONY : src/zmq_server.cpp.o
 
 src/zmq_server.i: src/zmq_server.cpp.i
@@ -179,7 +179,7 @@ src/zmq_server.i: src/zmq_server.cpp.i
 
 # target to preprocess a source file
 src/zmq_server.cpp.i:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server.dir/build.make CMakeFiles/zmq_server.dir/src/zmq_server.cpp.i
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server_ARM.dir/build.make CMakeFiles/zmq_server_ARM.dir/src/zmq_server.cpp.i
 .PHONY : src/zmq_server.cpp.i
 
 src/zmq_server.s: src/zmq_server.cpp.s
@@ -187,7 +187,7 @@ src/zmq_server.s: src/zmq_server.cpp.s
 
 # target to generate assembly for a file
 src/zmq_server.cpp.s:
-	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server.dir/build.make CMakeFiles/zmq_server.dir/src/zmq_server.cpp.s
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/zmq_server_ARM.dir/build.make CMakeFiles/zmq_server_ARM.dir/src/zmq_server.cpp.s
 .PHONY : src/zmq_server.cpp.s
 
 # Help Target
@@ -198,8 +198,8 @@ help:
 	@echo "... depend"
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
-	@echo "... zmq_client"
-	@echo "... zmq_server"
+	@echo "... zmq_client_ARM"
+	@echo "... zmq_server_ARM"
 	@echo "... src/zmq_client.o"
 	@echo "... src/zmq_client.i"
 	@echo "... src/zmq_client.s"

@@ -7,14 +7,25 @@
 #include <zmq.h>
  
 using namespace std;
+
+
+#define PRIORITY 17
  
 int main (int argc, char *argv [])
 {
+    int rc = 0;
     //  Socket to talk to server
     printf ("Collecting updates from weather server...\n");
     void *context = zmq_ctx_new ();
     void *subscriber = zmq_socket (context, ZMQ_SUB);
-    int rc = zmq_connect (subscriber, "tcp://localhost:5556");
+
+    // int prio=PRIORITY;
+    // int val=0;
+    // size_t len_val=sizeof(val);
+    // rc = zmq_setsockopt(subscriber,ZMQ_TOS,&prio,sizeof(prio));
+
+    //rc = zmq_bind (subscriber, "tcp://*:5556");
+    rc = zmq_connect (subscriber, "tcp://192.168.3.70:5556");
     assert (rc == 0);
  
     char filter1[] = "10001 ";
@@ -24,7 +35,6 @@ int main (int argc, char *argv [])
     rc = zmq_setsockopt (subscriber, ZMQ_SUBSCRIBE,filter2, strlen (filter2));
     assert (rc == 0);
  
-    //  Process 100 updates
     int size;
     char buffer [256];
     while (1) {

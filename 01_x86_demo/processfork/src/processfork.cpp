@@ -8,7 +8,7 @@ int main(int argc,char* argv[])
     pid_t pid1,pid2,pid3;
     
     pid1=fork();
-	if(0==pid1)
+    if(0==pid1)
     {
         setproctitle_init(argc,argv,"wscprocess1");
         thread t1(thread_func1);
